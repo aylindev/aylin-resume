@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Josefin Sans;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 85%;
+  margin-inline: auto;
+}
+#header {
+  padding-block: 20px;
+  background-color: #d6bcbd;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  width: 471px;
+  font-family: Josefin Sans;
+  font-size: 50px;
+  font-weight: 700;
+  color: #eb8382;
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navbar__list a {
+  width: 77px;
+  font-family: Josefin Sans;
+  font-size: 17px;
+  font-weight: 500;
+  color: #826f8c;
+}
+a:active,
+a {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+#main {
+  padding-block: 90px;
+  background-color: #fff;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.part1 {
+  font-family: Josefin Sans;
+  width: 451px;
+  font-size: 85px;
+  font-weight: 700;
+  color: #826f8c;
+}
+.part2 {
+  font-family: Josefin Sans;
+  width: 451px;
+  font-size: 68px;
+  font-weight: 700;
+  color: #eb8382;
+}
+.main-text p {
+  width: 518px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #826f8c;
+}
+
+.content {
+  background: #fff;
+  height: 100%;
+  padding-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+.content h2 {
+  padding: 30px;
+  padding-top: 5%;
+  font-size: 40px;
+  color: #826f8c;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__work {
+  width: 35%;
+  padding: 3% 5%;
+  height: 100%;
+  background-color: rgb(255, 248, 248);
+  color: #b48e8f;
+  border-radius: 20px;
+  border: 5px;
+}
+.skills__work h3 {
+  padding: 10px;
+}
+.skills__work ul {
+  text-align: start;
+  width: 480px;
+}
+.skills__person h3 {
+  padding: 10px;
+}
+.skills__person ul {
+  text-align: start;
+  width: 480px;
+}
+
+.skills__person {
+  width: 35%;
+  padding: 3% 5%;
+  height: 100%;
+  background-color: rgb(255, 248, 248);
+  color: #b48e8f;
+  border-radius: 20px;
+  border: 5px;
+}
+.skills__work li,
+.skills__person li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#services {
+  padding-block: 30px;
+  background: #fff;
+}
+#services h2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 37px;
+  color: #826f8c;
+}
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+.service-box {
+  background: rgb(255, 248, 248);
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.service-box:hover {
+  transform: scale(1.05);
+}
+.service-box h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.service-box h3 {
+  padding: 10px;
+  font-size: 20px;
+  color: #ac8888;
+  font-weight: 700;
+}
+.service-box p {
+  font-weight: 500;
+  font-size: 17px;
+  color: #eb8382;
+  font-weight: 700;
+}
+.service-box ul {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #826f8c;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.service-box ul li::before {
+  padding-right: 10px;
+
+  content: "✔";
+}
+.service-box button {
+  width: 100%;
+  height: 40px;
+  background: url(../img/button.jpg);
+  border-radius: 25px;
+  border: none;
+  font-size: 18px;
+  color: #eb8382;
+}
+.service-box:hover {
+  background: #f2c1c8;
+  p,
+  li {
+    color: #fff;
+  }
+}
+
+#hobbies {
+  padding-block: 50px;
+}
+#hobbies h3 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 37px;
+  color: #826f8c;
+}
+.hobbies{
+  display: flex;
+  gap: 16px;
+}
+.hobbies img{
+  width: 55%;
+}
+.hobby {
+  width: 412px;
+  height: 478px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+  background: none;
+  border-radius: 10px;
+}
+.hobby h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31.25px;
+  width: 344px;
+  color:  #826f8c ;
+}
+.hobby p {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 25.6px;
+  width: 344px;
+  color:#ac8888;
+}
+
